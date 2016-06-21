@@ -11,6 +11,6 @@
 
 txt中数据格式: `101190101=南京` ---> cityid=name (等号分割)
 
-1. 本demo用了 ormlite 框架操作sqlite ,详情见 鸿洋: http://blog.csdn.net/lmj623565791/article/details/39121377
-2. 也可以用最简单的文件读取(每次查询都要重新读取文件), 然后 传入 name匹配,之后取出citycode,这种方式效率不高,建议第一种,直接写到数据库中.
+1. 本demo用了 `ormlite` 框架操作`sqlite` ,详情见 [鸿洋](http://blog.csdn.net/lmj623565791/article/details/39121377): http://blog.csdn.net/lmj623565791/article/details/39121377
+2. 也可以用最简单的文件读取(`每次`查询`都要`重新读取文件), 然后 传入`name`匹配,之后取出`cityid`,这种方式效率不高,`建议使用第一种方法`,直接写到数据库中.
 
